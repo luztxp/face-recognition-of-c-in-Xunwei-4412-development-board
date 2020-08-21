@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P1 Old Footprint=PH2.0-10P New Footprint=SIP-10
+Change Component Footprint: Designator=P3 Old Footprint=PH2.0-10P New Footprint=SIP-10
+Added Pin To Net: NetName=GND Pin=1-2
+Added Room: Name=Sheet1

@@ -1,0 +1,18 @@
+Change Component Designator: OldDesignator=C7 NewDesignator=C5
+Change Component Designator: OldDesignator=C8 NewDesignator=C6
+Change Component Designator: OldDesignator=C9 NewDesignator=C7
+Change Component Designator: OldDesignator=C10 NewDesignator=C8
+Change Component Designator: OldDesignator=C11 NewDesignator=C9
+Change Component Designator: OldDesignator=C12 NewDesignator=C10
+Change Component Designator: OldDesignator=C13 NewDesignator=C11
+Change Component Designator: OldDesignator=C14 NewDesignator=C12
+Change Component Designator: OldDesignator=D1 NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC10_1
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetD?_2 New Net Name=NetD1_2
+Added Member To Class: ClassName=Sheet1 Member=Component C11 Cap
+Added Member To Class: ClassName=Sheet1 Member=Component C12 Cap
+Added Member To Class: ClassName=Sheet1 Member=Component D2 D Zener
+Added Room: Name=Sheet1

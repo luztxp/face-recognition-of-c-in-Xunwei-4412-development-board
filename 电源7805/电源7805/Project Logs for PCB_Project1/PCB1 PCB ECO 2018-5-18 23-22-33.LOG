@@ -1,0 +1,45 @@
+Added Component: Designator=1(TO-220)
+Added Component: Designator=C1(RB5)
+Added Component: Designator=C2(RB5)
+Added Component: Designator=C3(RAD0.1)
+Added Component: Designator=C4(RAD0.1)
+Added Component: Designator=P1(PH2.0-10P)
+Added Component: Designator=P2(HDR2X1_A)
+Added Component: Designator=P3(PH2.0-10P)
+Added Pin To Net: NetName=5V Pin=1-3
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C4-2
+Added Pin To Net: NetName=5V Pin=P1-1
+Added Pin To Net: NetName=5V Pin=P1-2
+Added Pin To Net: NetName=5V Pin=P1-3
+Added Pin To Net: NetName=5V Pin=P1-4
+Added Pin To Net: NetName=5V Pin=P1-5
+Added Pin To Net: NetName=5V Pin=P1-6
+Added Pin To Net: NetName=5V Pin=P1-7
+Added Pin To Net: NetName=5V Pin=P1-8
+Added Pin To Net: NetName=5V Pin=P1-9
+Added Pin To Net: NetName=5V Pin=P1-10
+Added Net: Name=5V
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=GND Pin=P3-6
+Added Pin To Net: NetName=GND Pin=P3-7
+Added Pin To Net: NetName=GND Pin=P3-8
+Added Pin To Net: NetName=GND Pin=P3-9
+Added Pin To Net: NetName=GND Pin=P3-10
+Added Net: Name=GND
+Added Pin To Net: NetName=INPUT Pin=1-1
+Added Pin To Net: NetName=INPUT Pin=C1-1
+Added Pin To Net: NetName=INPUT Pin=C3-2
+Added Pin To Net: NetName=INPUT Pin=P2-1
+Added Pin To Net: NetName=INPUT Pin=P2-2
+Added Net: Name=INPUT
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

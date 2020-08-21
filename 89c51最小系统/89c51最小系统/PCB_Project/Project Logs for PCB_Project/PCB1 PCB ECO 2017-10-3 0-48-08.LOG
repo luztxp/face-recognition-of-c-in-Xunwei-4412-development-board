@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X8 New Footprint=HDR 1X8
+Change Component Footprint: Designator=P4 Old Footprint=HDR1X8 New Footprint=HDR 1X8
+Change Component Footprint: Designator=P5 Old Footprint=HDR1X8 New Footprint=HDR 1X8
+Change Component Footprint: Designator=P6 Old Footprint=HDR1X8 New Footprint=HDR 1X8
+Added Member To Class: ClassName=Sheet1 Member=Component D1 1N4148
+Added Room: Name=Sheet1

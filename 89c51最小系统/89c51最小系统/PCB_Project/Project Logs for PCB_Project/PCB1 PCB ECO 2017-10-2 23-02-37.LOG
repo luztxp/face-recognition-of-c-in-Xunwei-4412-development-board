@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RXD Pin=R2-1
+Added Component: Designator=D?(1206D)
+Added Pin To Net: NetName=RXD Pin=D?-1
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R2-1
+Added Net: Name=NetD?_2
+Added Member To Class: ClassName=Sheet1 Member=Component D? 1N4148
+Added Room: Name=Sheet1

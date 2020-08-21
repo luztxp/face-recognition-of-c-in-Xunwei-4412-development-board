@@ -1,0 +1,140 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        06/07/2018  20:54:24  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+G:\KEIL\C51\BIN\BL51.EXE main.obj TO template RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  G:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  template (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0016H     UNIT         ?PR?USARTINIT?MAIN
+            CODE    0019H     0007H     UNIT         ?PR?MAIN?MAIN
+                    0020H     0003H                  *** GAP ***
+            CODE    0023H     0003H     ABSOLUTE     
+            CODE    0026H     0039H     UNIT         ?PR?USART?MAIN
+            CODE    005FH     000CH     UNIT         ?C_C51STARTUP
+            CODE    006BH     000BH     UNIT         ?PR?_DELAY?MAIN
+
+
+
+OVERLAY MAP OF MODULE:   template (MAIN)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?PR?USART?MAIN
+  +--> ?PR?_DELAY?MAIN
+
+*** NEW ROOT ***************************************************
+
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN
+  +--> ?PR?USARTINIT?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  template (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+BL51 BANKED LINKER/LOCATER V6.22                                                      06/07/2018  20:54:24  PAGE 2
+
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  B:00A8H.7       PUBLIC        EA
+  D:00A8H         PUBLIC        IE
+  C:0026H         PUBLIC        Usart
+  C:006BH         PUBLIC        _delay
+  B:00A8H.4       PUBLIC        ES
+  D:00B8H         PUBLIC        IP
+  B:0098H.0       PUBLIC        RI
+  B:0098H.1       PUBLIC        TI
+  C:0019H         PUBLIC        main
+  C:0003H         PUBLIC        UsartInit
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  D:0088H         PUBLIC        TCON
+  B:00A0H.7       PUBLIC        led
+  D:008DH         PUBLIC        TH1
+  D:008BH         PUBLIC        TL1
+  B:0088H.6       PUBLIC        TR1
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          USARTINIT
+  C:0003H         LINE#         20
+  C:0003H         LINE#         21
+  C:0003H         LINE#         22
+  C:0006H         LINE#         23
+  C:0009H         LINE#         24
+  C:000CH         LINE#         25
+  C:000FH         LINE#         26
+  C:0012H         LINE#         27
+  C:0014H         LINE#         28
+  C:0016H         LINE#         29
+  C:0018H         LINE#         30
+  -------         ENDPROC       USARTINIT
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        i
+  C:006BH         LINE#         38
+  C:006BH         LINE#         39
+  C:006BH         LINE#         40
+  C:0075H         LINE#         41
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  C:0019H         LINE#         42
+  C:0019H         LINE#         43
+  C:0019H         LINE#         44
+  C:001CH         LINE#         45
+  C:001EH         LINE#         46
+  -------         ENDPROC       MAIN
+  -------         PROC          USART
+  -------         DO            
+  D:0005H         SYMBOL        receiveData
+  -------         ENDDO         
+BL51 BANKED LINKER/LOCATER V6.22                                                      06/07/2018  20:54:24  PAGE 3
+
+
+  C:0026H         LINE#         55
+  C:0035H         LINE#         59
+  C:0037H         LINE#         60
+  C:0039H         LINE#         61
+  C:0040H         LINE#         62
+  C:0042H         LINE#         63
+  C:0044H         LINE#         64
+  C:0047H         LINE#         65
+  C:0049H         LINE#         66
+  C:004BH         LINE#         67
+  C:0052H         LINE#         68
+  -------         ENDPROC       USART
+  -------         ENDMOD        MAIN
+
+Program Size: data=9.0 xdata=0 code=115
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
