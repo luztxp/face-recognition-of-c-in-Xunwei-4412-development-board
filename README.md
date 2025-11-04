@@ -1,5 +1,5 @@
 # face-recognition-of-c-in-Xunwei-4412-development-board
-本科毕业设计，基于嵌入式arm的人脸识别智能门禁，包括代码、电路图，具体流程。
+毕业设计，基于嵌入式arm的人脸识别智能门禁，包括代码、电路图，具体流程。
 
 在讯为itop4412上实现的人脸识别门禁，OpenCV与Qt Creator实现本系统，使用开发板连接的无驱摄像头捕捉人脸，人脸识别后控制插销锁开关，iTOP-4412开发板相关文档
 链接：https://pan.baidu.com/s/1j1Lfv9PVAzwVFTIScQBU2A 
